@@ -41,9 +41,10 @@ alert(parseInt(a) + parseInt(b));
 
 // Задание 05
 let monthNumber = Number(prompt("Введите номер месяца"));
-if (monthNumber < 1 || monthNumber > 12) {
-    console.log("Такого месяца не бывает");
-} else {
+// if (monthNumber < 1 || monthNumber > 12) {
+//     console.log("Такого месяца не бывает");
+// } else 
+{
     switch (monthNumber) {
         case 12:
         case 1:
@@ -69,4 +70,5 @@ if (monthNumber < 1 || monthNumber > 12) {
             console.log("Некорректный номер месяца");
     }
 }
+
 
